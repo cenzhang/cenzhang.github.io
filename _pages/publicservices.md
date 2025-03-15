@@ -12,6 +12,8 @@ redirect_from:
 
 ## Program Committee Services
 
+- ACSAC 2025, Research Track, PC Member
+- ICDM 2025, LLM4Sec workshop, PC Member
 - ISSTA 2025, EXPRESS Track, PC Member
 - Internetware 2025, Tool Demonstration Track, PC Member
 - IJCAI 2025, Survey Track, PC Member
