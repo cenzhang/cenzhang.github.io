@@ -29,6 +29,7 @@ redirect_from:
 
 - ACM Transactions on Software Engineering and Methodology (TOSEM)
 - IEEE Transactions on Information Forensics and Security (TIFS)
+- IEEE Transactions on Reliabilty (TR)
 
 ## External Reviewing Services
 
