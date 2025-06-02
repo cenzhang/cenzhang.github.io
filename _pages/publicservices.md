@@ -12,6 +12,7 @@ redirect_from:
 
 ## Program Committee Services
 
+- NDSS 2026, Artifical Evaluation Committee
 - ASE 2025, NIER Track, PC Member
 - ACSAC 2025, Research Track, PC Member
 - ICDM 2025, LLM4Sec workshop, PC Member

@@ -10,7 +10,7 @@ redirect_from:
 
 ---
 
-I am currently a postdoctoral researcher at [SSLab@Gatech](https://gts3.org/pages/people.html) under the supervision of [Prof. Taesoo Kim](https://taesoo.kim/). I am also a member of [Team-Atlanta](https://team-atlanta.github.io/). Prior to this, I was a postdoc and Ph.D. student at the CCDS at Nanyang Technological University (NTU) under the guidance of [Prof. Liu Yang](https://personal.ntu.edu.sg/yangliu/) since 2019.
+I am currently a postdoctoral researcher at [SSLab@Gatech](https://gts3.org/pages/people.html) under the supervision of [Prof. Taesoo Kim](https://taesoo.kim/). I am also a member of [Team-Atlanta](https://team-atlanta.github.io/, we are in the finalist of [AIxCC Competition](https://aicyberchallenge.com/)!). Prior to this, I was a postdoc and Ph.D. student at the CCDS at Nanyang Technological University (NTU) under the guidance of [Prof. Liu Yang](https://personal.ntu.edu.sg/yangliu/) since 2019.
 
 My research expertise mainly centers around building tools factilitating vulnerability detection:
 
@@ -28,6 +28,7 @@ In the future, I plan to explore more possibilities on **vulnerability detection
 
 ---
 
+- <img src="https://cenzhang.github.io/images/new.gif">&nbsp; Mar 2025: Excited to serve on the Program Committee for ACSAC 2025.
 - <img src="https://cenzhang.github.io/images/new.gif">&nbsp; Jan 2025: Our work "Smart Contract Fuzzing Towards Profitable Vulnerabilities" is accepted by FSE 2025.
 - <img src="https://cenzhang.github.io/images/new.gif">&nbsp; Nov 2024: Our work "LLM Based Input Space Partitioning Testing for Library APIs" is accepted by ICSE 2025.
 - <img src="https://cenzhang.github.io/images/new.gif">&nbsp; Sep 2024: Our work "A Survey of Protocol Fuzzing" is accepted by ACM Computing Surveys.
