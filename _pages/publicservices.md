@@ -12,6 +12,7 @@ redirect_from:
 
 ## Program Committee Services
 
+- ASE 2025, Research Track, PC Member
 - NDSS 2026, Artifical Evaluation Committee
 - ASE 2025, NIER Track, PC Member
 - ACSAC 2025, Research Track, PC Member
