@@ -28,7 +28,7 @@ In the future, I plan to explore more possibilities on **vulnerability detection
 
 ---
 
-- <img src="https://cenzhang.github.io/images/new.gif">&nbsp; Aug 2025: Thrilled to share our CRS has won the 1st place of AIxCC competition!
+- <img src="https://cenzhang.github.io/images/new.gif">&nbsp; Aug 2025: Thrilled to share our CRS has won the 1st place of AIxCC competition ($4,000,000 award)!
 - <img src="https://cenzhang.github.io/images/new.gif">&nbsp; Jul 2025: Our work "VULCANBOOST: Boosting ReDoS Fixes through Symbolic Representation and Feature Normalization" is accepted by USENIX Security 2025!
 - <img src="https://cenzhang.github.io/images/new.gif">&nbsp; Jun 2025: Excited to serve on the Program Committee for ASE 2025!
 - <img src="https://cenzhang.github.io/images/new.gif">&nbsp; Mar 2025: Excited to serve on the Program Committee for ACSAC 2025!
