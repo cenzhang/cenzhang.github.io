@@ -10,7 +10,7 @@ redirect_from:
 
 ---
 
-I am currently a postdoctoral researcher at [SSLab@Gatech](https://gts3.org/pages/people.html) under the supervision of [Prof. Taesoo Kim](https://taesoo.kim/). I am also a member of [Team-Atlanta](https://team-atlanta.github.io/) (1st place winner of [AIxCC Competition](https://aicyberchallenge.com/) with $4,000,000 award) and lead the Java subCRS in final year competition. Prior to this, I was a postdoc and Ph.D. student at the CCDS at Nanyang Technological University (NTU) under the guidance of [Prof. Liu Yang](https://personal.ntu.edu.sg/yangliu/) since 2019.
+I am currently a postdoctoral researcher at [SSLab@Gatech](https://gts3.org/pages/people.html) under the supervision of [Prof. Taesoo Kim](https://taesoo.kim/). I am also a member of [Team-Atlanta](https://team-atlanta.github.io/) (1st place winner of [AIxCC Competition](https://aicyberchallenge.com/) with $4,000,000 award) and lead the Java subCRS team in final year competition. Prior to this, I was a postdoc and Ph.D. student at the CCDS at Nanyang Technological University (NTU) under the guidance of [Prof. Liu Yang](https://personal.ntu.edu.sg/yangliu/) since 2019.
 
 My research expertise mainly centers around building tools factilitating vulnerability detection:
 
