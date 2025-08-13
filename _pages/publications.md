@@ -15,7 +15,7 @@ You can also find my articles on <u><a href="{{author.googlescholar}}">my Google
 ---
 
 <p>
-<a class="media" href="https://cenzhang.github.io/404.html" target="_blank"><img src="https://cenzhang.github.io/images/pdf.png"></a>&nbsp; Yeting Li, Yecheng Sun, Zhiwu Xu, Haiming Chen, Xinyi Wang, Hengyu Yang, Huina Chao, <font color="blue">Cen Zhang</font>, Yang Xiao, Yanyan Zou, Feng Li, Wei Huo. VULCANBOOST: Boosting ReDoS Fixes through Symbolic  Representation and Feature Normalization, USENIX Security 2025.
+<a class="media" href="https://cenzhang.github.io/404.html" target="_blank"><img src="https://cenzhang.github.io/images/pdf.png"></a>&nbsp; Yeting Li, Yecheng Sun, Zhiwu Xu, Haiming Chen, Xinyi Wang, Hengyu Yang, Huina Chao, <font color="blue">Cen Zhang</font>, Yang Xiao, Yanyan Zou, Feng Li, Wei Huo. VULCANBOOST: Boosting ReDoS Fixes through Symbolic  Representation and Feature Normalization, USENIX Security 2025. <font color="red">Honorable Mentions, 6% (25/407) of the accepted papers</font>
 </p>
 
 <p>
