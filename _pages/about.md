@@ -19,7 +19,7 @@ My research expertise mainly centers around building tools factilitating vulnera
 - **Model-Based Vulnerability Detection**: Rengar (Oakland 23), Endwatch (<img src="https://cenzhang.github.io/images/award.gif" style="width: 13px;">ASE 23)
 - **General Fuzzing Improvements**: Medusa (WWW 24), BiFF (<img src="https://cenzhang.github.io/images/award.gif" style="width: 13px;">ASE 21), MUZZ (USENIX Sec 20), Cerebro (FSE 19)
 
-My works have received several awards from both academia and industry, such as the <font color="red">ACM SIGSOFT Distinguished Paper Awards</font> of ASE 2023 and ICSE 2024, <font color="red">2021 Most Influential Research Paper of Ant Finance</font>, and <font color="red">1st Award of Prototype Competition, Free Style Track, NASAC (ChinaSoft) 2019</font>.
+My works have received several awards from both academia and industry, such as the <font color="red">AIxCC 1st place Winner</font>, <font color="red">ACM SIGSOFT Distinguished Paper Awards</font> of ASE 2023 and ICSE 2024, <font color="red">2021 Most Influential Research Paper of Ant Finance</font>, and <font color="red">1st Award of Prototype Competition, Free Style Track, NASAC (ChinaSoft) 2019</font>.
 
 I was also working as Project Co-Investigator for some research projects and mentoring several Ph.D students.
 In the future, I plan to explore more possibilities on **vulnerability detection**, such as modeling new kinds of vulnerbilities, exploring LLM-assisted approaches, etc.
