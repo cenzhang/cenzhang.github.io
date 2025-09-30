@@ -15,7 +15,7 @@ I am currently a postdoctoral researcher at [SSLab@Gatech](https://gts3.org/page
 My research expertise mainly centers around building tools factilitating vulnerability detection:
 
 - **Fuzz Driver Generation**: LLM4FDG (ISSTA 24), Rubick (<img src="https://cenzhang.github.io/images/award.gif" style="width: 13px;">USENIX Sec 23), APICraft (<img src="https://cenzhang.github.io/images/award.gif" style="width: 13px;">USENIX Sec 21)
-- **Firmware Analysis**: BVFinder (<img src="https://cenzhang.github.io/images/award.gif" style="width: 13px;">ICSE 24), EQUAFL (ISSTA 22), FirmGuide (ASE 21), ECMO (CCS 21)
+- **Firmware Analysis**: FirmWell (NDSS 2026), BVFinder (<img src="https://cenzhang.github.io/images/award.gif" style="width: 13px;">ICSE 24), EQUAFL (ISSTA 22), FirmGuide (ASE 21), ECMO (CCS 21)
 - **Model-Based Vulnerability Detection**: Rengar (Oakland 23), Endwatch (<img src="https://cenzhang.github.io/images/award.gif" style="width: 13px;">ASE 23)
 - **General Fuzzing Improvements**: Medusa (WWW 24), BiFF (<img src="https://cenzhang.github.io/images/award.gif" style="width: 13px;">ASE 21), MUZZ (USENIX Sec 20), Cerebro (FSE 19)
 
