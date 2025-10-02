@@ -15,7 +15,11 @@ You can also find my articles on <u><a href="{{author.googlescholar}}">my Google
 ---
 
 <p>
-<a class="media" href="https://cenzhang.github.io/404.html" target="_blank"><img src="https://cenzhang.github.io/images/pdf.png"></a>&nbsp; Chuan Qin*, <font color="blue">Cen Zhang*</font>, User-Space Dependency-Aware Rehosting for Linux-Based Firmware Binaries. NDSS 2026.
+<a class="media" href="https://cenzhang.github.io/404.html" target="_blank"><img src="https://cenzhang.github.io/images/pdf.png"> Team Atlanta (<font color="blue">Cen Zhang*</font> works as the Atlantis-Java sub-team leader), ATLANTIS: AI-driven Threat Localization, Analysis, and Triage Intelligence System. Arxiv 2025. <font color="red">Technical report for DARPA AIxCC Competition 1st Place Winner system.</font>
+</p>
+
+<p>
+<a class="media" href="https://cenzhang.github.io/404.html" target="_blank"><img src="https://cenzhang.github.io/images/pdf.png"></a>&nbsp; Chuan Qin*, <font color="blue">Cen Zhang*</font>, Yaowen Zheng, Puzhuo Liu, Jian Zhang, Yeting Li, Weidong Zhang, Yang Liu, Limin Sun. User-Space Dependency-Aware Rehosting for Linux-Based Firmware Binaries. NDSS 2026.
 </p>
 
 <p>
