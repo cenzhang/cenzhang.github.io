@@ -15,7 +15,7 @@ You can also find my articles on <u><a href="{{author.googlescholar}}">my Google
 ---
 
 <p>
-<a class="media" href="https://cenzhang.github.io/404.html" target="_blank"><img src="https://cenzhang.github.io/images/pdf.png"></a> Team Atlanta (<font color="blue">Cen Zhang*</font> works as the Atlantis-Java sub-team leader), ATLANTIS: AI-driven Threat Localization, Analysis, and Triage Intelligence System. Arxiv 2025. <font color="red">Technical report for DARPA AIxCC Competition 1st Place Winner system.</font>
+<a class="media" href="https://cenzhang.github.io/404.html" target="_blank"><img src="https://cenzhang.github.io/images/pdf.png"></a> Team Atlanta (<font color="blue">Cen Zhang</font> works as the Atlantis-Java sub-team leader), ATLANTIS: AI-driven Threat Localization, Analysis, and Triage Intelligence System. Arxiv 2025. <font color="red">Technical report for DARPA AIxCC Competition 1st Place Winner system.</font>
 </p>
 
 <p>
