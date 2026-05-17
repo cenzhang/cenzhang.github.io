@@ -1,11 +1,8 @@
 ---
-layout: archive
-title: "CV"
 permalink: /cv/
-author_profile: true
+redirect_to: /
 redirect_from:
   - /resume
   - /resume.html
+sitemap: false
 ---
-
-CV available upon request.

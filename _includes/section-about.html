@@ -1,0 +1,38 @@
+<section id="about" class="section">
+  <div class="container">
+    <div class="profile">
+      <div class="profile-photo">
+        <img src="{{ '/images/cenzhang.jpg' | relative_url }}" alt="{{ site.author.name }}">
+      </div>
+      <div class="profile-info">
+        <h1>{{ site.author.name }} <span class="name-cn">(张岑)</span></h1>
+        <p class="profile-title">{{ site.author.bio }}</p>
+        <p class="profile-location">{{ site.author.location }}</p>
+        <div class="profile-links">
+          {% if site.author.email %}<a href="mailto:{{ site.author.email }}" title="Email">Email</a>{% endif %}
+          {% if site.author.googlescholar %}<a href="{{ site.author.googlescholar }}" target="_blank" title="Google Scholar">Google Scholar</a>{% endif %}
+          {% if site.author.github %}<a href="https://github.com/{{ site.author.github }}" target="_blank" title="GitHub">GitHub</a>{% endif %}
+          {% if site.author.twitter %}<a href="https://twitter.com/{{ site.author.twitter }}" target="_blank" title="Twitter">Twitter</a>{% endif %}
+          {% if site.author.orcid %}<a href="{{ site.author.orcid }}" target="_blank" title="ORCID">ORCID</a>{% endif %}
+        </div>
+      </div>
+    </div>
+
+    <div class="about-text">
+      <p>I am currently a postdoctoral researcher at <a href="https://gts3.org/pages/people.html">SSLab@Gatech</a> under the supervision of <a href="https://taesoo.kim/">Prof. Taesoo Kim</a>, and the Java bug finding team leader of <a href="https://team-atlanta.github.io/">Team-Atlanta</a> (1st place winner of <a href="https://aicyberchallenge.com/">AIxCC Competition</a> with $4,000,000 award). Prior to this, I was a postdoc and Ph.D. student at the CCDS at Nanyang Technological University (NTU) under the guidance of <a href="https://personal.ntu.edu.sg/yangliu/">Prof. Liu Yang</a> since 2019.</p>
+
+      <p>My research expertise mainly centers around building tools facilitating vulnerability detection:</p>
+
+      <ul class="research-areas">
+        <li><strong>Fuzz Driver Generation</strong>: LLM4FDG (ISSTA 24), Rubick (USENIX Sec 23), APICraft (USENIX Sec 21)</li>
+        <li><strong>Firmware Analysis</strong>: FirmWell (NDSS 2026), BVFinder (ICSE 24), EQUAFL (ISSTA 22), FirmGuide (ASE 21), ECMO (CCS 21)</li>
+        <li><strong>Model-Based Vulnerability Detection</strong>: Rengar (Oakland 23), Endwatch (ASE 23)</li>
+        <li><strong>General Fuzzing Improvements</strong>: Medusa (WWW 24), BiFF (ASE 21), MUZZ (USENIX Sec 20), Cerebro (FSE 19)</li>
+      </ul>
+
+      <p>My works have received several awards from both academia and industry, such as the <strong>AIxCC 1st place Winner</strong>, <strong>ACM SIGSOFT Distinguished Paper Awards</strong> of ASE 2023 and ICSE 2024, <strong>2021 Most Influential Research Paper of Ant Finance</strong>, and <strong>1st Award of Prototype Competition, Free Style Track, NASAC (ChinaSoft) 2019</strong>.</p>
+
+      <p>I was also working as Project Co-Investigator for some research projects and mentoring several Ph.D students. In the future, I plan to explore more possibilities on <strong>vulnerability detection</strong>, such as modeling new kinds of vulnerabilities, exploring LLM-assisted approaches, etc.</p>
+    </div>
+  </div>
+</section>

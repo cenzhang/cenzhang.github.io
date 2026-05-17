@@ -1,0 +1,177 @@
+# Publications data - edit this file to add/update publications
+# Fields: title, authors, venue, year, url, award, note, co_first (optional)
+
+- title: "ATLANTIS: AI-driven Threat Localization, Analysis, and Triage Intelligence System"
+  authors: "Team Atlanta (<b>Cen Zhang</b> works as the Atlantis-Java sub-team leader)"
+  venue: "Arxiv 2025"
+  year: 2025
+  note: "Technical report for DARPA AIxCC Competition 1st Place Winner system."
+  url: "#"
+
+- title: "User-Space Dependency-Aware Rehosting for Linux-Based Firmware Binaries"
+  authors: "Chuan Qin*, <b>Cen Zhang*</b>, Yaowen Zheng, Puzhuo Liu, Jian Zhang, Yeting Li, Weidong Zhang, Yang Liu, Limin Sun"
+  venue: "NDSS 2026"
+  year: 2026
+  url: "#"
+  co_first: true
+
+- title: "VULCANBOOST: Boosting ReDoS Fixes through Symbolic Representation and Feature Normalization"
+  authors: "Yeting Li, Yecheng Sun, Zhiwu Xu, Haiming Chen, Xinyi Wang, Hengyu Yang, Huina Chao, <b>Cen Zhang</b>, Yang Xiao, Yanyan Zou, Feng Li, Wei Huo"
+  venue: "USENIX Security 2025"
+  year: 2025
+  url: "#"
+  note: "Honorable Mentions, 6% (25/407) of the accepted papers"
+
+- title: "Smart Contract Fuzzing Towards Profitable Vulnerabilities"
+  authors: "Ziqiao Kong, <b>Cen Zhang</b>, Maoyi Xie, Ming Hu, Yue Xue, Ye Liu, Haijun Wang, Yang Liu"
+  venue: "FSE 2025"
+  year: 2025
+  url: "#"
+
+- title: "LLM Based Input Space Partitioning Testing for Library APIs"
+  authors: "Jiageng Li, Zhen Dong, Chong Wang, Haozhen You, <b>Cen Zhang</b>, Yang Liu, Xin Peng"
+  venue: "ICSE 2025"
+  year: 2025
+  url: "#"
+
+- title: "A Survey of Protocol Fuzzing"
+  authors: "Xiaohan Zhang*, <b>Cen Zhang*</b>, Xinghua Li, Zhengjie Du, Bing Mao, Yuekang Li, Yaowen Zheng, Yeting Li, Li Pan, Yang Liu, Robert Deng"
+  venue: "ACM Computing Surveys"
+  year: 2024
+  url: "https://dl.acm.org/doi/10.1145/3696788"
+  co_first: true
+
+- title: "Semantic-Enhanced Indirect Call Analysis with Large Language Models"
+  authors: "Baijun Cheng, <b>Cen Zhang</b>, Kailong Wang, Ling Shi, Yang Liu, Haoyu Wang, Yao Guo, Xiangqun Chen"
+  venue: "ASE 2024"
+  year: 2024
+  url: "#"
+
+- title: "How Effective Are They? Exploring Large Language Model Based Fuzz Driver Generation"
+  authors: "<b>Cen Zhang</b>, Yaowen Zheng, Mingqiang Bai, Yeting Li, Wei Ma, Xiaofei Xie, Yuekang Li, Limin Sun, Yang Liu"
+  venue: "ISSTA 2024"
+  year: 2024
+  url: "https://dl.acm.org/doi/10.1145/3650212.3680355"
+
+- title: "Bugs in Pods: Understanding Bugs in Container Runtime Systems"
+  authors: "Jiongchi Yu, Xiaofei Xie, <b>Cen Zhang</b>, Sen Chen, Yuekang Li, Wenbo Shen"
+  venue: "ISSTA 2024"
+  year: 2024
+  url: "#"
+
+- title: "Achilles' Heel of JS Engines: Exploiting Modern Browsers During WASM Execution"
+  authors: "Bohan Liu, Zong Cao, Zheng Wang, Yeqi Fu, <b>Cen Zhang</b>"
+  venue: "Black Hat USA 2024"
+  year: 2024
+  url: "#"
+
+- title: "DeFort: Automatic Detection and Analysis of Price Manipulation Attacks in DeFi Applications"
+  authors: "Maoyi Xie, Ming Hu, Ziqiao Kong, <b>Cen Zhang</b>, Yebo Feng, Haijun Wang, Yue Xue, Hao Zhang, Ye Liu, Yang Liu"
+  venue: "ISSTA 2024"
+  year: 2024
+  url: "#"
+
+- title: "Medusa: Unveil Memory Exhaustion DoS Vulnerabilities in Protocol Implementations"
+  authors: "Zhengjie Du, Yuekang Li, Yaowen Zheng, Xiaohan Zhang, <b>Cen Zhang</b>, Yi Liu, Sheikh Mahbub Habib, Xinghua Li, Linzhang Wang, Yang Liu, Bing Mao"
+  venue: "WWW 2024"
+  year: 2024
+  url: "https://openreview.net/forum?id=uOwJEPtyOF"
+
+- title: "Semantic-Enhanced Static Vulnerability Detection in Baseband Firmware"
+  authors: "Yiming Liu, <b>Cen Zhang</b>, Feng Li, Yeting Li, Jianhua Zhou, Jian Wang, Lanlan Zhan, Yang Liu, Wei Huo"
+  venue: "ICSE 2024"
+  year: 2024
+  url: "#"
+  note: "Acceptance Rate: 8% (65/808), 10K+ USD Bug Bounty"
+  award: "ACM SIGSOFT Distinguished Paper Award"
+
+- title: "Aster: Automatic Speech Recognition System Accessibility Testing for Stutterers"
+  authors: "Yi Liu, Yuekang Li, Gelei Deng, Yao Du, <b>Cen Zhang</b>, Chengwei Liu, Yeting Li, Lei Ma, Yang Liu"
+  venue: "ASE 2023"
+  year: 2023
+  url: "#"
+
+- title: "EndWatch: A Practical Method for Detecting Non-Termination in Real-World Software"
+  authors: "Yao Zhang, Xiaofei Xie, Yi Li, Sen Chen, <b>Cen Zhang</b>, Xiaohong Li"
+  venue: "ASE 2023"
+  year: 2023
+  url: "#"
+  award: "ACM SIGSOFT Distinguished Paper Award"
+
+- title: "Effective ReDoS Detection by Principled Vulnerability Modeling and Exploit Generation"
+  authors: "Xinyi Wang*, <b>Cen Zhang*</b>, Yeting Li, Zhiwu Xu, Shuailin Huang, Yi Liu, Yican Yao, Yang Xiao, Yanyan Zou, Yang Liu, and Wei Huo"
+  venue: "IEEE S&P 2023"
+  year: 2023
+  url: "https://cenzhang.github.io/files/pubs/2023-ieeesp-rengar.pdf"
+  co_first: true
+
+- title: "Automata-Guided Control-Flow-Sensitive Fuzz Driver Generation"
+  authors: "<b>Cen Zhang</b>, Yuekang Li, Hao Zhou, Xiaohan Zhang, Yaowen Zheng, Xian Zhan, Xiaofei Xie, Xiapu Luo, Xinghua Li, Yang Liu, and Sheikh Mahbub Habib"
+  venue: "USENIX Security 2023"
+  year: 2023
+  url: "https://www.usenix.org/conference/usenixsecurity23/presentation/zhang-cen"
+
+- title: "Efficient Greybox Fuzzing of Applications in Linux-based IoT Devices via Enhanced User-mode Emulation"
+  authors: "Yaowen Zheng, Yuekang Li, <b>Cen Zhang</b>, Hongsong Zhu, Yang Liu, and Limin Sun"
+  venue: "ISSTA 2022"
+  year: 2022
+  url: "https://cenzhang.github.io/files/pubs/2022-issta-equafl.pdf"
+
+- title: "ECMO: Peripheral Transplantation to Rehost Embedded Linux Kernels"
+  authors: "Muhui Jiang, Lin Ma, Yajin Zhou, Qiang Liu, <b>Cen Zhang</b>, Zhi Wang, Xiapu Luo, Lei Wu, and Kui Ren"
+  venue: "CCS 2021"
+  year: 2021
+  url: "https://cenzhang.github.io/files/pubs/2021-ccs-ecmo.pdf"
+
+- title: "APICraft: Fuzz Driver Generation for Closed-source SDK Libraries"
+  authors: "<b>Cen Zhang</b>, Xingwei Lin, Yuekang Li, Yinxing Xue, Jundong Xie, Hongxu Chen, Xinlei Ying, Jiashui Wang, and Yang Liu"
+  venue: "USENIX Security 2021"
+  year: 2021
+  url: "https://www.usenix.org/conference/usenixsecurity21/presentation/zhang-cen"
+  award: "Most Influential Research Paper of Year 2021 in Ant Finance"
+
+- title: "FirmGuide: Boosting the Capability of Rehosting Embedded Linux Kernels Through Model-Guided Kernel Execution"
+  authors: "Qiang Liu*, <b>Cen Zhang*</b>, Lin Ma, Muhui Jiang, Yajin Zhou, Lei Wu, Wenbo Shen, Xiapu Luo, Yang Liu, and Kui Ren"
+  venue: "ASE 2021"
+  year: 2021
+  url: "https://cenzhang.github.io/files/pubs/2021-ase-firmguide.pdf"
+  co_first: true
+
+- title: "Vall-nut: Principled anti-grey box fuzzing"
+  authors: "Yuekang Li, Guozhu Meng, Jun Xu, <b>Cen Zhang</b>, Hongxu Chen, Xiaofei Xie, Haijun Wang, and Yang Liu"
+  venue: "ISSRE 2021"
+  year: 2021
+  url: "#"
+
+- title: "BIFF: Practical Binary Fuzzing Framework for Programs of IoT and Mobile Devices"
+  authors: "<b>Cen Zhang*</b>, Yuekang Li*, Hongxu Chen, Xiaoxing Luo, Miaohua Li, Anh Quynh Nguyen, and Yang Liu"
+  venue: "ASE 2021 Industrial Track"
+  year: 2021
+  url: "#"
+  co_first: true
+
+- title: "Ori: A Greybox Fuzzer for SOME/IP Protocols in Automotive Ethernet"
+  authors: "Yuekang Li, Hongxu Chen, <b>Cen Zhang</b>, Siyang Xiong, Chaoyi Liu, and Yi Wang"
+  venue: "APSEC 2020"
+  year: 2020
+  url: "#"
+  award: "Best Paper Award in Early Research Achievement Track"
+
+- title: "MUZZ: Thread-aware grey-box fuzzing for effective bug hunting in multithreaded programs"
+  authors: "Hongxu Chen, Shengjian Guo, Yinxing Xue, Yulei Sui, <b>Cen Zhang</b>, Yuekang Li, Haijun Wang, and Yang Liu"
+  venue: "USENIX Security 2020"
+  year: 2020
+  url: "#"
+
+- title: "BiFF: An Effective Binary Fuzzing Framework with Cross-Architecture Support"
+  authors: "<b>Cen Zhang</b>, Yuekang Li, Hongxu Chen, Anh Quynh Nguyen, Yang Liu"
+  venue: "NASAC 2019"
+  year: 2019
+  url: "#"
+  award: "First Award in Software Prototype Competition Free Track"
+
+- title: "Cerebro: context-aware adaptive fuzzing for effective vulnerability detection"
+  authors: "Yuekang Li, Yinxing Xue, Hongxu Chen, Xiuheng Wu, <b>Cen Zhang</b>, Xiaofei Xie, Haijun Wang, and Yang Liu"
+  venue: "ESEC/FSE 2019"
+  year: 2019
+  url: "#"

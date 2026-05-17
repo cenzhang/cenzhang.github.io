@@ -1,368 +1,613 @@
-
-
-<!doctype html>
-<html lang="en" class="no-js">
-  <head>
-    
-
-<meta charset="utf-8">
-
-
-
-<!-- begin SEO -->
-
-
-
-
-
-
-
-
-
-<title>academicpages is a ready-to-fork GitHub Pages template for academic personal websites - Cen Zhang’s (张岑) Homepage</title>
-
-
-
-
-
-
-
-<meta property="og:locale" content="en-US">
-<meta property="og:site_name" content="Cen Zhang's (张岑) Homepage">
-<meta property="og:title" content="academicpages is a ready-to-fork GitHub Pages template for academic personal websites">
-
-
-  <link rel="canonical" href="https://cenzhang.github.io/">
-  <meta property="og:url" content="https://cenzhang.github.io/">
-
-
-
-  <meta property="og:description" content="About me">
-
-
-
-
-
-  
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-  <script type="application/ld+json">
-    {
-      "@context" : "http://schema.org",
-      "@type" : "Person",
-      "name" : "Cen Zhang",
-      "url" : "https://cenzhang.github.io",
-      "sameAs" : null
-    }
-  </script>
-
-
-
-
-
-
-<!-- end SEO -->
-
-
-<link href="https://cenzhang.github.io/feed.xml" type="application/atom+xml" rel="alternate" title="Cen Zhang's (张岑) Homepage Feed">
-
-<!-- http://t.co/dKP3o1e -->
-<meta name="HandheldFriendly" content="True">
-<meta name="MobileOptimized" content="320">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<script>
-  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
-</script>
-
-<!-- For all browsers -->
-<link rel="stylesheet" href="https://cenzhang.github.io/assets/css/main.css">
-
-<meta http-equiv="cleartype" content="on">
-    
-
-<!-- start custom head snippets -->
-
-<link rel="apple-touch-icon" sizes="57x57" href="https://cenzhang.github.io/images/apple-touch-icon-57x57.png?v=M44lzPylqQ">
-<link rel="apple-touch-icon" sizes="60x60" href="https://cenzhang.github.io/images/apple-touch-icon-60x60.png?v=M44lzPylqQ">
-<link rel="apple-touch-icon" sizes="72x72" href="https://cenzhang.github.io/images/apple-touch-icon-72x72.png?v=M44lzPylqQ">
-<link rel="apple-touch-icon" sizes="76x76" href="https://cenzhang.github.io/images/apple-touch-icon-76x76.png?v=M44lzPylqQ">
-<link rel="apple-touch-icon" sizes="114x114" href="https://cenzhang.github.io/images/apple-touch-icon-114x114.png?v=M44lzPylqQ">
-<link rel="apple-touch-icon" sizes="120x120" href="https://cenzhang.github.io/images/apple-touch-icon-120x120.png?v=M44lzPylqQ">
-<link rel="apple-touch-icon" sizes="144x144" href="https://cenzhang.github.io/images/apple-touch-icon-144x144.png?v=M44lzPylqQ">
-<link rel="apple-touch-icon" sizes="152x152" href="https://cenzhang.github.io/images/apple-touch-icon-152x152.png?v=M44lzPylqQ">
-<link rel="apple-touch-icon" sizes="180x180" href="https://cenzhang.github.io/images/apple-touch-icon-180x180.png?v=M44lzPylqQ">
-<link rel="icon" type="image/png" href="https://cenzhang.github.io/images/favicon-32x32.png?v=M44lzPylqQ" sizes="32x32">
-<link rel="icon" type="image/png" href="https://cenzhang.github.io/images/android-chrome-192x192.png?v=M44lzPylqQ" sizes="192x192">
-<link rel="icon" type="image/png" href="https://cenzhang.github.io/images/favicon-96x96.png?v=M44lzPylqQ" sizes="96x96">
-<link rel="icon" type="image/png" href="https://cenzhang.github.io/images/favicon-16x16.png?v=M44lzPylqQ" sizes="16x16">
-<link rel="manifest" href="https://cenzhang.github.io/images/manifest.json?v=M44lzPylqQ">
-<link rel="mask-icon" href="https://cenzhang.github.io/images/safari-pinned-tab.svg?v=M44lzPylqQ" color="#000000">
-<link rel="shortcut icon" href="/images/favicon.ico?v=M44lzPylqQ">
-<meta name="msapplication-TileColor" content="#000000">
-<meta name="msapplication-TileImage" content="https://cenzhang.github.io/images/mstile-144x144.png?v=M44lzPylqQ">
-<meta name="msapplication-config" content="https://cenzhang.github.io/images/browserconfig.xml?v=M44lzPylqQ">
-<meta name="theme-color" content="#ffffff">
-<link rel="stylesheet" href="https://cenzhang.github.io/assets/css/academicons.css"/>
-
-<script type="text/x-mathjax-config"> MathJax.Hub.Config({ TeX: { equationNumbers: { autoNumber: "all" } } }); </script>
-<script type="text/x-mathjax-config">
-  MathJax.Hub.Config({
-    tex2jax: {
-      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
-      processEscapes: true
-    }
-  });
-</script>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/latest.js?config=TeX-MML-AM_CHTML' async></script>
-
-<!-- end custom head snippets -->
-
-  </head>
-
-  <body>
-
-    <!--[if lt IE 9]>
-<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
-<![endif]-->
-    
-
-<div class="masthead">
-  <div class="masthead__inner-wrap">
-    <div class="masthead__menu">
-      <nav id="site-nav" class="greedy-nav">
-        <button><div class="navicon"></div></button>
-        <ul class="visible-links">
-          <li class="masthead__menu-item masthead__menu-item--lg"><a href="https://cenzhang.github.io/">Cen Zhang's (张岑) Homepage</a></li>
-          
-            
-            <li class="masthead__menu-item"><a href="https://cenzhang.github.io/publications/">Publications</a></li>
-          
-            
-            <li class="masthead__menu-item"><a href="https://cenzhang.github.io/cv/">CV</a></li>
-          
-        </ul>
-        <ul class="hidden-links hidden"></ul>
-      </nav>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cen Zhang's (张岑) Homepage</title>
+  <meta name="description" content="personal description">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="nav" id="navbar">
+    <div class="nav-inner">
+      <a href="#about" class="nav-name">Cen Zhang</a>
+      <button class="nav-toggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#news">News</a></li>
+        <li><a href="#publications">Publications</a></li>
+        <li><a href="#awards">Awards</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#tools">Tools</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main>
+    <section id="about" class="section">
+  <div class="container">
+    <div class="profile">
+      <div class="profile-photo">
+        <img src="/images/cenzhang.jpg" alt="Cen Zhang">
+      </div>
+      <div class="profile-info">
+        <h1>Cen Zhang <span class="name-cn">(张岑)</span></h1>
+        <p class="profile-title">Security Researcher</p>
+        <p class="profile-location">Singapore</p>
+        <div class="profile-links">
+          <a href="mailto:blbllhy@gmail.com" title="Email">Email</a>
+          <a href="https://scholar.google.com/citations?user=Vy2-YDoAAAAJ&hl=en" target="_blank" title="Google Scholar">Google Scholar</a>
+          <a href="https://github.com/occia" target="_blank" title="GitHub">GitHub</a>
+          <a href="https://twitter.com/zhclhy" target="_blank" title="Twitter">Twitter</a>
+          <a href="https://orcid.org/0000-0001-5603-1322" target="_blank" title="ORCID">ORCID</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="about-text">
+      <p>I am currently a postdoctoral researcher at <a href="https://gts3.org/pages/people.html">SSLab@Gatech</a> under the supervision of <a href="https://taesoo.kim/">Prof. Taesoo Kim</a>, and the Java bug finding team leader of <a href="https://team-atlanta.github.io/">Team-Atlanta</a> (1st place winner of <a href="https://aicyberchallenge.com/">AIxCC Competition</a> with $4,000,000 award). Prior to this, I was a postdoc and Ph.D. student at the CCDS at Nanyang Technological University (NTU) under the guidance of <a href="https://personal.ntu.edu.sg/yangliu/">Prof. Liu Yang</a> since 2019.</p>
+
+      <p>My research expertise mainly centers around building tools facilitating vulnerability detection:</p>
+
+      <ul class="research-areas">
+        <li><strong>Fuzz Driver Generation</strong>: LLM4FDG (ISSTA 24), Rubick (USENIX Sec 23), APICraft (USENIX Sec 21)</li>
+        <li><strong>Firmware Analysis</strong>: FirmWell (NDSS 2026), BVFinder (ICSE 24), EQUAFL (ISSTA 22), FirmGuide (ASE 21), ECMO (CCS 21)</li>
+        <li><strong>Model-Based Vulnerability Detection</strong>: Rengar (Oakland 23), Endwatch (ASE 23)</li>
+        <li><strong>General Fuzzing Improvements</strong>: Medusa (WWW 24), BiFF (ASE 21), MUZZ (USENIX Sec 20), Cerebro (FSE 19)</li>
+      </ul>
+
+      <p>My works have received several awards from both academia and industry, such as the <strong>AIxCC 1st place Winner</strong>, <strong>ACM SIGSOFT Distinguished Paper Awards</strong> of ASE 2023 and ICSE 2024, <strong>2021 Most Influential Research Paper of Ant Finance</strong>, and <strong>1st Award of Prototype Competition, Free Style Track, NASAC (ChinaSoft) 2019</strong>.</p>
+
+      <p>I was also working as Project Co-Investigator for some research projects and mentoring several Ph.D students. In the future, I plan to explore more possibilities on <strong>vulnerability detection</strong>, such as modeling new kinds of vulnerabilities, exploring LLM-assisted approaches, etc.</p>
     </div>
   </div>
-</div>
+</section>
+
+<section id="news" class="section">
+  <div class="container">
+    <h2 class="section-title">News</h2>
+    <ul class="news-list">
+      <li class="news-item"><span class="news-date">Aug 2025</span> Our work "User-Space Dependency-Aware Rehosting for Linux-Based Firmware Binaries" is accepted by <strong>NDSS 2026</strong>.</li>
+      <li class="news-item"><span class="news-date">Aug 2025</span> Thrilled to share our CRS has won <strong class="highlight">the 1st place of AIxCC competition with $4,000,000 award</strong>!</li>
+      <li class="news-item"><span class="news-date">Jul 2025</span> Our work "VULCANBOOST" is accepted by <strong>USENIX Security 2025</strong>. <span class="badge-note">Honorable Mentions, 6% (25/407) of accepted papers</span></li>
+      <li class="news-item"><span class="news-date">Jun 2025</span> Excited to serve on the Program Committee for <strong>ASE 2025</strong>!</li>
+      <li class="news-item"><span class="news-date">Mar 2025</span> Excited to serve on the Program Committee for <strong>ACSAC 2025</strong>!</li>
+      <li class="news-item hidden"><span class="news-date">Jan 2025</span> Our work "Smart Contract Fuzzing Towards Profitable Vulnerabilities" is accepted by <strong>FSE 2025</strong>.</li>
+      <li class="news-item hidden"><span class="news-date">Nov 2024</span> Our work "LLM Based Input Space Partitioning Testing for Library APIs" is accepted by <strong>ICSE 2025</strong>.</li>
+      <li class="news-item hidden"><span class="news-date">Sep 2024</span> Our work "A Survey of Protocol Fuzzing" is accepted by <strong>ACM Computing Surveys</strong>.</li>
+      <li class="news-item hidden"><span class="news-date">Aug 2024</span> Our work "Semantic-Enhanced Indirect Call Analysis with Large Language Models" is accepted by <strong>ASE 2024</strong>.</li>
+      <li class="news-item hidden"><span class="news-date">Jul 2024</span> Our work "How Effective Are They? Exploring Large Language Model Based Fuzz Driver Generation" is accepted by <strong>ISSTA 2024</strong>.</li>
+      <li class="news-item hidden"><span class="news-date">Jul 2024</span> Our work "Bugs in Pods: Understanding Bugs in Container Runtime Systems" is accepted by <strong>ISSTA 2024</strong>.</li>
+      <li class="news-item hidden"><span class="news-date">May 2024</span> Our work "Achilles' Heel of JS Engines" is accepted by <strong>Black Hat USA 2024</strong>.</li>
+      <li class="news-item hidden"><span class="news-date">Mar 2024</span> Our paper "DeFort" is accepted by <strong>ISSTA 2024</strong>.</li>
+      <li class="news-item hidden"><span class="news-date">Jan 2024</span> Our paper "Medusa" is accepted by <strong>WWW 2024</strong>.</li>
+      <li class="news-item hidden"><span class="news-date">Oct 2023</span> Our paper on Baseband Firmware is accepted by <strong>ICSE 2024</strong>. <span class="badge-award">ACM SIGSOFT Distinguished Paper Award</span></li>
+      <li class="news-item hidden"><span class="news-date">Jul 2023</span> Our paper "Aster" is accepted by <strong>ASE 2023</strong>.</li>
+      <li class="news-item hidden"><span class="news-date">Jul 2023</span> Our paper "EndWatch" is accepted by <strong>ASE 2023</strong> and has won <span class="badge-award">ACM SIGSOFT Distinguished Paper Award</span>.</li>
+      <li class="news-item hidden"><span class="news-date">Apr 2023</span> Our paper "Rengar" is accepted by <strong>IEEE S&P 2023</strong>.</li>
+      <li class="news-item hidden"><span class="news-date">Oct 2022</span> Our paper "Rubick" is accepted by <strong>USENIX Security 2023</strong>.</li>
+      <li class="news-item hidden"><span class="news-date">Apr 2022</span> Our paper "EQUAFL" is accepted by <strong>ISSTA 2022</strong>.</li>
+    </ul>
+    <button id="news-toggle" class="btn-text" data-expanded="false">Show all news</button>
+  </div>
+</section>
+
+<section id="publications" class="section">
+  <div class="container">
+    <h2 class="section-title">Publications</h2>
+    <p class="section-subtitle">You can also find my articles on <a href="https://scholar.google.com/citations?user=Vy2-YDoAAAAJ&hl=en">Google Scholar</a>. <em>(* = co-first author)</em></p>
 
     
-
-
-
-
-
-<div id="main" role="main">
-  
-
-
-  <div class="sidebar sticky">
-  
-
-
-
-<div itemscope itemtype="http://schema.org/Person">
-
-  <div class="author__avatar">
     
-    	<img src="https://cenzhang.github.io/images/cenzhang.jpg" class="author__avatar" alt="Cen Zhang">
+    <div class="pub-year-group">
+      <h3 class="pub-year">2026</h3>
+      <ul class="pub-list">
+        
+        <li class="pub-item">
+          <div class="pub-title">
+            User-Space Dependency-Aware Rehosting for Linux-Based Firmware Binaries
+          </div>
+          <div class="pub-authors">Chuan Qin*, <b>Cen Zhang*</b>, Yaowen Zheng, Puzhuo Liu, Jian Zhang, Yeting Li, Weidong Zhang, Yang Liu, Limin Sun</div>
+          <div class="pub-meta">
+            <span class="pub-venue">NDSS 2026</span>
+            
+            
+          </div>
+        </li>
+        
+      </ul>
+    </div>
+    
+    <div class="pub-year-group">
+      <h3 class="pub-year">2025</h3>
+      <ul class="pub-list">
+        
+        <li class="pub-item">
+          <div class="pub-title">
+            ATLANTIS: AI-driven Threat Localization, Analysis, and Triage Intelligence System
+          </div>
+          <div class="pub-authors">Team Atlanta (<b>Cen Zhang</b> works as the Atlantis-Java sub-team leader)</div>
+          <div class="pub-meta">
+            <span class="pub-venue">Arxiv 2025</span>
+            
+            <span class="badge-note">Technical report for DARPA AIxCC Competition 1st Place Winner system.</span>
+          </div>
+        </li>
+        
+        <li class="pub-item">
+          <div class="pub-title">
+            VULCANBOOST: Boosting ReDoS Fixes through Symbolic Representation and Feature Normalization
+          </div>
+          <div class="pub-authors">Yeting Li, Yecheng Sun, Zhiwu Xu, Haiming Chen, Xinyi Wang, Hengyu Yang, Huina Chao, <b>Cen Zhang</b>, Yang Xiao, Yanyan Zou, Feng Li, Wei Huo</div>
+          <div class="pub-meta">
+            <span class="pub-venue">USENIX Security 2025</span>
+            
+            <span class="badge-note">Honorable Mentions, 6% (25/407) of the accepted papers</span>
+          </div>
+        </li>
+        
+        <li class="pub-item">
+          <div class="pub-title">
+            Smart Contract Fuzzing Towards Profitable Vulnerabilities
+          </div>
+          <div class="pub-authors">Ziqiao Kong, <b>Cen Zhang</b>, Maoyi Xie, Ming Hu, Yue Xue, Ye Liu, Haijun Wang, Yang Liu</div>
+          <div class="pub-meta">
+            <span class="pub-venue">FSE 2025</span>
+            
+            
+          </div>
+        </li>
+        
+        <li class="pub-item">
+          <div class="pub-title">
+            LLM Based Input Space Partitioning Testing for Library APIs
+          </div>
+          <div class="pub-authors">Jiageng Li, Zhen Dong, Chong Wang, Haozhen You, <b>Cen Zhang</b>, Yang Liu, Xin Peng</div>
+          <div class="pub-meta">
+            <span class="pub-venue">ICSE 2025</span>
+            
+            
+          </div>
+        </li>
+        
+      </ul>
+    </div>
+    
+    <div class="pub-year-group">
+      <h3 class="pub-year">2024</h3>
+      <ul class="pub-list">
+        
+        <li class="pub-item">
+          <div class="pub-title">
+            <a href="https://dl.acm.org/doi/10.1145/3696788" target="_blank">A Survey of Protocol Fuzzing</a>
+          </div>
+          <div class="pub-authors">Xiaohan Zhang*, <b>Cen Zhang*</b>, Xinghua Li, Zhengjie Du, Bing Mao, Yuekang Li, Yaowen Zheng, Yeting Li, Li Pan, Yang Liu, Robert Deng</div>
+          <div class="pub-meta">
+            <span class="pub-venue">ACM Computing Surveys</span>
+            
+            
+          </div>
+        </li>
+        
+        <li class="pub-item">
+          <div class="pub-title">
+            Semantic-Enhanced Indirect Call Analysis with Large Language Models
+          </div>
+          <div class="pub-authors">Baijun Cheng, <b>Cen Zhang</b>, Kailong Wang, Ling Shi, Yang Liu, Haoyu Wang, Yao Guo, Xiangqun Chen</div>
+          <div class="pub-meta">
+            <span class="pub-venue">ASE 2024</span>
+            
+            
+          </div>
+        </li>
+        
+        <li class="pub-item">
+          <div class="pub-title">
+            <a href="https://dl.acm.org/doi/10.1145/3650212.3680355" target="_blank">How Effective Are They? Exploring Large Language Model Based Fuzz Driver Generation</a>
+          </div>
+          <div class="pub-authors"><b>Cen Zhang</b>, Yaowen Zheng, Mingqiang Bai, Yeting Li, Wei Ma, Xiaofei Xie, Yuekang Li, Limin Sun, Yang Liu</div>
+          <div class="pub-meta">
+            <span class="pub-venue">ISSTA 2024</span>
+            
+            
+          </div>
+        </li>
+        
+        <li class="pub-item">
+          <div class="pub-title">
+            Bugs in Pods: Understanding Bugs in Container Runtime Systems
+          </div>
+          <div class="pub-authors">Jiongchi Yu, Xiaofei Xie, <b>Cen Zhang</b>, Sen Chen, Yuekang Li, Wenbo Shen</div>
+          <div class="pub-meta">
+            <span class="pub-venue">ISSTA 2024</span>
+            
+            
+          </div>
+        </li>
+        
+        <li class="pub-item">
+          <div class="pub-title">
+            Achilles' Heel of JS Engines: Exploiting Modern Browsers During WASM Execution
+          </div>
+          <div class="pub-authors">Bohan Liu, Zong Cao, Zheng Wang, Yeqi Fu, <b>Cen Zhang</b></div>
+          <div class="pub-meta">
+            <span class="pub-venue">Black Hat USA 2024</span>
+            
+            
+          </div>
+        </li>
+        
+        <li class="pub-item">
+          <div class="pub-title">
+            DeFort: Automatic Detection and Analysis of Price Manipulation Attacks in DeFi Applications
+          </div>
+          <div class="pub-authors">Maoyi Xie, Ming Hu, Ziqiao Kong, <b>Cen Zhang</b>, Yebo Feng, Haijun Wang, Yue Xue, Hao Zhang, Ye Liu, Yang Liu</div>
+          <div class="pub-meta">
+            <span class="pub-venue">ISSTA 2024</span>
+            
+            
+          </div>
+        </li>
+        
+        <li class="pub-item">
+          <div class="pub-title">
+            <a href="https://openreview.net/forum?id=uOwJEPtyOF" target="_blank">Medusa: Unveil Memory Exhaustion DoS Vulnerabilities in Protocol Implementations</a>
+          </div>
+          <div class="pub-authors">Zhengjie Du, Yuekang Li, Yaowen Zheng, Xiaohan Zhang, <b>Cen Zhang</b>, Yi Liu, Sheikh Mahbub Habib, Xinghua Li, Linzhang Wang, Yang Liu, Bing Mao</div>
+          <div class="pub-meta">
+            <span class="pub-venue">WWW 2024</span>
+            
+            
+          </div>
+        </li>
+        
+        <li class="pub-item">
+          <div class="pub-title">
+            Semantic-Enhanced Static Vulnerability Detection in Baseband Firmware
+          </div>
+          <div class="pub-authors">Yiming Liu, <b>Cen Zhang</b>, Feng Li, Yeting Li, Jianhua Zhou, Jian Wang, Lanlan Zhan, Yang Liu, Wei Huo</div>
+          <div class="pub-meta">
+            <span class="pub-venue">ICSE 2024</span>
+            <span class="badge-award">ACM SIGSOFT Distinguished Paper Award</span>
+            <span class="badge-note">Acceptance Rate: 8% (65/808), 10K+ USD Bug Bounty</span>
+          </div>
+        </li>
+        
+      </ul>
+    </div>
+    
+    <div class="pub-year-group">
+      <h3 class="pub-year">2023</h3>
+      <ul class="pub-list">
+        
+        <li class="pub-item">
+          <div class="pub-title">
+            Aster: Automatic Speech Recognition System Accessibility Testing for Stutterers
+          </div>
+          <div class="pub-authors">Yi Liu, Yuekang Li, Gelei Deng, Yao Du, <b>Cen Zhang</b>, Chengwei Liu, Yeting Li, Lei Ma, Yang Liu</div>
+          <div class="pub-meta">
+            <span class="pub-venue">ASE 2023</span>
+            
+            
+          </div>
+        </li>
+        
+        <li class="pub-item">
+          <div class="pub-title">
+            EndWatch: A Practical Method for Detecting Non-Termination in Real-World Software
+          </div>
+          <div class="pub-authors">Yao Zhang, Xiaofei Xie, Yi Li, Sen Chen, <b>Cen Zhang</b>, Xiaohong Li</div>
+          <div class="pub-meta">
+            <span class="pub-venue">ASE 2023</span>
+            <span class="badge-award">ACM SIGSOFT Distinguished Paper Award</span>
+            
+          </div>
+        </li>
+        
+        <li class="pub-item">
+          <div class="pub-title">
+            <a href="https://cenzhang.github.io/files/pubs/2023-ieeesp-rengar.pdf" target="_blank">Effective ReDoS Detection by Principled Vulnerability Modeling and Exploit Generation</a>
+          </div>
+          <div class="pub-authors">Xinyi Wang*, <b>Cen Zhang*</b>, Yeting Li, Zhiwu Xu, Shuailin Huang, Yi Liu, Yican Yao, Yang Xiao, Yanyan Zou, Yang Liu, and Wei Huo</div>
+          <div class="pub-meta">
+            <span class="pub-venue">IEEE S&P 2023</span>
+            
+            
+          </div>
+        </li>
+        
+        <li class="pub-item">
+          <div class="pub-title">
+            <a href="https://www.usenix.org/conference/usenixsecurity23/presentation/zhang-cen" target="_blank">Automata-Guided Control-Flow-Sensitive Fuzz Driver Generation</a>
+          </div>
+          <div class="pub-authors"><b>Cen Zhang</b>, Yuekang Li, Hao Zhou, Xiaohan Zhang, Yaowen Zheng, Xian Zhan, Xiaofei Xie, Xiapu Luo, Xinghua Li, Yang Liu, and Sheikh Mahbub Habib</div>
+          <div class="pub-meta">
+            <span class="pub-venue">USENIX Security 2023</span>
+            
+            
+          </div>
+        </li>
+        
+      </ul>
+    </div>
+    
+    <div class="pub-year-group">
+      <h3 class="pub-year">2022</h3>
+      <ul class="pub-list">
+        
+        <li class="pub-item">
+          <div class="pub-title">
+            <a href="https://cenzhang.github.io/files/pubs/2022-issta-equafl.pdf" target="_blank">Efficient Greybox Fuzzing of Applications in Linux-based IoT Devices via Enhanced User-mode Emulation</a>
+          </div>
+          <div class="pub-authors">Yaowen Zheng, Yuekang Li, <b>Cen Zhang</b>, Hongsong Zhu, Yang Liu, and Limin Sun</div>
+          <div class="pub-meta">
+            <span class="pub-venue">ISSTA 2022</span>
+            
+            
+          </div>
+        </li>
+        
+      </ul>
+    </div>
+    
+    <div class="pub-year-group">
+      <h3 class="pub-year">2021</h3>
+      <ul class="pub-list">
+        
+        <li class="pub-item">
+          <div class="pub-title">
+            <a href="https://cenzhang.github.io/files/pubs/2021-ccs-ecmo.pdf" target="_blank">ECMO: Peripheral Transplantation to Rehost Embedded Linux Kernels</a>
+          </div>
+          <div class="pub-authors">Muhui Jiang, Lin Ma, Yajin Zhou, Qiang Liu, <b>Cen Zhang</b>, Zhi Wang, Xiapu Luo, Lei Wu, and Kui Ren</div>
+          <div class="pub-meta">
+            <span class="pub-venue">CCS 2021</span>
+            
+            
+          </div>
+        </li>
+        
+        <li class="pub-item">
+          <div class="pub-title">
+            <a href="https://www.usenix.org/conference/usenixsecurity21/presentation/zhang-cen" target="_blank">APICraft: Fuzz Driver Generation for Closed-source SDK Libraries</a>
+          </div>
+          <div class="pub-authors"><b>Cen Zhang</b>, Xingwei Lin, Yuekang Li, Yinxing Xue, Jundong Xie, Hongxu Chen, Xinlei Ying, Jiashui Wang, and Yang Liu</div>
+          <div class="pub-meta">
+            <span class="pub-venue">USENIX Security 2021</span>
+            <span class="badge-award">Most Influential Research Paper of Year 2021 in Ant Finance</span>
+            
+          </div>
+        </li>
+        
+        <li class="pub-item">
+          <div class="pub-title">
+            <a href="https://cenzhang.github.io/files/pubs/2021-ase-firmguide.pdf" target="_blank">FirmGuide: Boosting the Capability of Rehosting Embedded Linux Kernels Through Model-Guided Kernel Execution</a>
+          </div>
+          <div class="pub-authors">Qiang Liu*, <b>Cen Zhang*</b>, Lin Ma, Muhui Jiang, Yajin Zhou, Lei Wu, Wenbo Shen, Xiapu Luo, Yang Liu, and Kui Ren</div>
+          <div class="pub-meta">
+            <span class="pub-venue">ASE 2021</span>
+            
+            
+          </div>
+        </li>
+        
+        <li class="pub-item">
+          <div class="pub-title">
+            Vall-nut: Principled anti-grey box fuzzing
+          </div>
+          <div class="pub-authors">Yuekang Li, Guozhu Meng, Jun Xu, <b>Cen Zhang</b>, Hongxu Chen, Xiaofei Xie, Haijun Wang, and Yang Liu</div>
+          <div class="pub-meta">
+            <span class="pub-venue">ISSRE 2021</span>
+            
+            
+          </div>
+        </li>
+        
+        <li class="pub-item">
+          <div class="pub-title">
+            BIFF: Practical Binary Fuzzing Framework for Programs of IoT and Mobile Devices
+          </div>
+          <div class="pub-authors"><b>Cen Zhang*</b>, Yuekang Li*, Hongxu Chen, Xiaoxing Luo, Miaohua Li, Anh Quynh Nguyen, and Yang Liu</div>
+          <div class="pub-meta">
+            <span class="pub-venue">ASE 2021 Industrial Track</span>
+            
+            
+          </div>
+        </li>
+        
+      </ul>
+    </div>
+    
+    <div class="pub-year-group">
+      <h3 class="pub-year">2020</h3>
+      <ul class="pub-list">
+        
+        <li class="pub-item">
+          <div class="pub-title">
+            Ori: A Greybox Fuzzer for SOME/IP Protocols in Automotive Ethernet
+          </div>
+          <div class="pub-authors">Yuekang Li, Hongxu Chen, <b>Cen Zhang</b>, Siyang Xiong, Chaoyi Liu, and Yi Wang</div>
+          <div class="pub-meta">
+            <span class="pub-venue">APSEC 2020</span>
+            <span class="badge-award">Best Paper Award in Early Research Achievement Track</span>
+            
+          </div>
+        </li>
+        
+        <li class="pub-item">
+          <div class="pub-title">
+            MUZZ: Thread-aware grey-box fuzzing for effective bug hunting in multithreaded programs
+          </div>
+          <div class="pub-authors">Hongxu Chen, Shengjian Guo, Yinxing Xue, Yulei Sui, <b>Cen Zhang</b>, Yuekang Li, Haijun Wang, and Yang Liu</div>
+          <div class="pub-meta">
+            <span class="pub-venue">USENIX Security 2020</span>
+            
+            
+          </div>
+        </li>
+        
+      </ul>
+    </div>
+    
+    <div class="pub-year-group">
+      <h3 class="pub-year">2019</h3>
+      <ul class="pub-list">
+        
+        <li class="pub-item">
+          <div class="pub-title">
+            BiFF: An Effective Binary Fuzzing Framework with Cross-Architecture Support
+          </div>
+          <div class="pub-authors"><b>Cen Zhang</b>, Yuekang Li, Hongxu Chen, Anh Quynh Nguyen, Yang Liu</div>
+          <div class="pub-meta">
+            <span class="pub-venue">NASAC 2019</span>
+            <span class="badge-award">First Award in Software Prototype Competition Free Track</span>
+            
+          </div>
+        </li>
+        
+        <li class="pub-item">
+          <div class="pub-title">
+            Cerebro: context-aware adaptive fuzzing for effective vulnerability detection
+          </div>
+          <div class="pub-authors">Yuekang Li, Yinxing Xue, Hongxu Chen, Xiuheng Wu, <b>Cen Zhang</b>, Xiaofei Xie, Haijun Wang, and Yang Liu</div>
+          <div class="pub-meta">
+            <span class="pub-venue">ESEC/FSE 2019</span>
+            
+            
+          </div>
+        </li>
+        
+      </ul>
+    </div>
     
   </div>
+</section>
 
-  <div class="author__content">
-    <h3 class="author__name">Cen Zhang</h3>
-    <p class="author__bio">Security Researcher</p>
-  </div>
-
-  <div class="author__urls-wrapper">
-    <button class="btn btn--inverse">Follow</button>
-    <ul class="author__urls social-icons">
-      
-        <li><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> Singapore</li>
-      
-      
-      
-      
-      
-       
-      
-        <li><a href="https://twitter.com/zhclhy"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
-      
-      
-      
-      
-      
-      
-      
-      
-      
-        <li><a href="https://github.com/occia"><i class="fab fa-fw fa-github" aria-hidden="true"></i> Github</a></li>
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-        <li><a href="https://scholar.google.com/citations?user=Vy2-YDoAAAAJ&hl=en"><i class="fas fa-fw fa-graduation-cap"></i> Google Scholar</a></li>
-      
-      
-      
-        <li><a href="https://orcid.org/0000-0001-5603-1322"><i class="ai ai-orcid-square ai-fw"></i> ORCID</a></li>
-      
-      
-      
+<section id="awards" class="section">
+  <div class="container">
+    <h2 class="section-title">Awards</h2>
+    <ul class="awards-list">
+      <li><strong>AIxCC 1st Place Winner</strong> &mdash; DARPA AI Cyber Challenge</li>
+      <li><strong>Honorable Mention Award</strong> &mdash; USENIX Security 2025 (Top 6%, 25/407)</li>
+      <li><strong>Best Paper Award for Thrust B Projects</strong> &mdash; Continental-NTU Corporate Lab 2024</li>
+      <li><strong>ACM SIGSOFT Distinguished Paper Award</strong> &mdash; ICSE 2024</li>
+      <li><strong>ACM SIGSOFT Distinguished Paper Award</strong> &mdash; ASE 2023</li>
+      <li><strong>Best Paper Award of Year 2021</strong> &mdash; Most Influential Research Paper Election of Ant Finance</li>
+      <li><strong>Best Early-Research-Achievement Paper</strong> &mdash; APSEC 2020</li>
+      <li><strong>1st Award in Prototype Competition (freestyle track)</strong> &mdash; NASAC 2019</li>
     </ul>
   </div>
-</div>
+</section>
 
-  
+<section id="services" class="section">
+  <div class="container">
+    <h2 class="section-title">Professional Services</h2>
+
+    <h3 class="subsection-title">Program Committee</h3>
+    <p class="services-compact">
+      <strong>2027:</strong> ICSE &middot; FSE<br>
+      <strong>2026:</strong> ASE (Research, NIER) &middot; ACSAC<br>
+      <strong>2025:</strong> ASE (Research, NIER) &middot; ACSAC &middot; ISSTA (EXPRESS) &middot; ICECCS &middot; Oakland (HMISA) &middot; IJCAI (Survey) &middot; Internetware (Tool Demo) &middot; ICDM (LLM4Sec) &middot; EuroSys (Shadow) &middot; MSR (Junior)
+    </p>
+
+    <h3 class="subsection-title">Journal Reviewing</h3>
+    <p class="services-compact">TOSEM &middot; TSE &middot; TIFS &middot; IEEE TR &middot; TDSC</p>
   </div>
+</section>
+
+<section id="tools" class="section">
+  <div class="container">
+    <h2 class="section-title">Tools</h2>
+    <ul class="tools-list">
+      <li>
+        <strong>OSS-CRS</strong> &mdash; Open Source Cyber Reasoning System: orchestrate autonomous CRSs for OSS-Fuzz-style targets &mdash; bug-finding, bug-fixing, triage, and ensembles, all behind one CLI
+        <a href="https://oss-crs.openssf.org/" target="_blank" class="tool-link">[Site]</a>
+        <a href="https://github.com/ossf/oss-crs" target="_blank" class="tool-link">[GitHub]</a>
+      </li>
+      <li>
+        <strong>fuzzdrivergpt</strong> &mdash; A GPT-Based Fuzz Driver Generator
+        <a href="https://github.com/occia/fuzzdrivergpt" target="_blank" class="tool-link">[GitHub]</a>
+      </li>
+    </ul>
+  </div>
+</section>
 
 
-  <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
-    <meta itemprop="headline" content="academicpages is a ready-to-fork GitHub Pages template for academic personal websites">
-    <meta itemprop="description" content="About me">
-    
-    
+  </main>
 
-    <div class="page__inner-wrap">
-      
-        <header>
-          <h1 class="page__title" itemprop="headline">academicpages is a ready-to-fork GitHub Pages template for academic personal websites
-</h1>
-          
-        
-        
-        
-        
-             
-        
-    
-        </header>
-      
-
-      <section class="page__content" itemprop="text">
-        <h1 id="about">ABOUT</h1>
-
-<hr />
-
-<p>I am a fourth-year Ph.D student at the School of Computer Science and Engineering in Nanyang Technological University under the supervision of <a href="https://personal.ntu.edu.sg/yangliu/">Prof. Liu Yang</a>.
-My Ph.D works mainly center around building tools for detecting software vulnerabilities, including the Fuzz Driver Generation, Firmware Rehosting, and Binary Instrumentation.
-They worked by enabling the fuzz testing on the targets that cannot be effectively applied before.
-In the near future, I plan to explore more possibilities on vulnerability detection, such as modeling new kinds of vulnerbilities, exploring LLM-assisted approaches, etc.
-In the long run, I’m eager to build more cool things!
-Currently, I am a Research Associate in <a href="https://www.ntu.edu.sg/cysren">CYSREN@NTU</a> since March 2023, and also working as Project Co-Investigator for some projects.</p>
-
-<h1 id="news">NEWS</h1>
-
-<hr />
-
-<ul>
-  <li>I’m in the job market!</li>
-  <li>July 2023: Our paper “Aster: Automatic Speech Recognition System Accessibility Testing for Stutterers” is accepted by ASE 2023.</li>
-  <li>July 2023: Our paper “EndWatch: A Practical Method for Detecting Non-Termination in Real-World Software” is accepted by ASE 2023.</li>
-  <li>April 2023: Our paper “Effective ReDoS Detection by Principled Vulnerability Modeling and Exploit Generation” is accepted by IEEE S&amp;P 2023.</li>
-  <li>October 2022: Our paper “Automata-Guided Control-Flow-Sensitive Fuzz Driver Generation” is accepted by Usenix Security 2023.</li>
-  <li>April 2022: Our paper “Efficient Greybox Fuzzing of Applications in Linux-based IoT Devices via Enhanced User-mode Emulation” is accepted by ISSTA 2022.</li>
-</ul>
-
-        
-      </section>
-
-      <footer class="page__meta">
-        
-        
-
-
-
-
-      </footer>
-
-      
-
-      
-
-
+  <footer class="footer">
+    <div class="container">
+      <a href="//clustrmaps.com/site/1bw0u" target="_blank" rel="noopener" class="visitor-link" title="Visitor map (ClustrMaps)">
+        <img src="//www.clustrmaps.com/map_v2.png?cl=ffffff&amp;w=a&amp;d=qd22-Wpe7CUKe3FdY6eqGMd4TnBY6bmR9XIIyxh0TII" alt="ClustrMaps visitor map" loading="lazy">
+      </a>
+      <p>&copy; 2026 Cen Zhang. Hosted on GitHub Pages.</p>
     </div>
-
-    
-  </article>
-
-  
-  
-</div>
-
-
-    <div class="page__footer">
-      <footer>
-        <!-- start custom footer snippets -->
-<a href="/sitemap/">Sitemap</a>
-<!-- end custom footer snippets -->
-
-        
-
-<div class="page__footer-follow">
-  <ul class="social-icons">
-    
-      <li><strong>Follow:</strong></li>
-    
-    
-    
-    
-      <li><a href="http://github.com/occia"><i class="fab fa-github" aria-hidden="true"></i> GitHub</a></li>
-    
-    
-    <li><a href="https://cenzhang.github.io/feed.xml"><i class="fa fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
-  </ul>
-</div>
-
-<div class="page__footer-copyright">&copy; 2023 Cen Zhang. Powered by <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://github.com/academicpages/academicpages.github.io">AcademicPages</a>, a fork of <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
-
-      </footer>
-    </div>
-
-    <script src="https://cenzhang.github.io/assets/js/main.min.js"></script>
-
-
-
+  </footer>
 
   <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    // Smooth scroll
+    document.querySelectorAll('a[href^="#"]').forEach(a => {
+      a.addEventListener('click', e => {
+        e.preventDefault();
+        const target = document.querySelector(a.getAttribute('href'));
+        if (target) {
+          const offset = document.getElementById('navbar').offsetHeight + 16;
+          window.scrollTo({ top: target.offsetTop - offset, behavior: 'smooth' });
+        }
+        // Close mobile menu
+        document.querySelector('.nav-links').classList.remove('active');
+        document.querySelector('.nav-toggle').classList.remove('active');
+      });
+    });
 
-  ga('create', '', 'auto');
-  ga('send', 'pageview');
-</script>
+    // Active section highlight
+    const sections = document.querySelectorAll('section[id]');
+    const navLinks = document.querySelectorAll('.nav-links a');
+    window.addEventListener('scroll', () => {
+      const scrollY = window.scrollY + 100;
+      sections.forEach(section => {
+        const top = section.offsetTop - 100;
+        const bottom = top + section.offsetHeight;
+        const id = section.getAttribute('id');
+        if (scrollY >= top && scrollY < bottom) {
+          navLinks.forEach(link => {
+            link.classList.remove('active');
+            if (link.getAttribute('href') === '#' + id) link.classList.add('active');
+          });
+        }
+      });
+    });
 
+    // Mobile toggle
+    document.querySelector('.nav-toggle').addEventListener('click', () => {
+      document.querySelector('.nav-links').classList.toggle('active');
+      document.querySelector('.nav-toggle').classList.toggle('active');
+    });
 
-
-
-
-
-  </body>
+    // Show more/less for news
+    const newsToggle = document.getElementById('news-toggle');
+    if (newsToggle) {
+      newsToggle.addEventListener('click', () => {
+        const hidden = document.querySelectorAll('.news-item.hidden');
+        const isExpanded = newsToggle.dataset.expanded === 'true';
+        if (isExpanded) {
+          document.querySelectorAll('.news-item').forEach((item, i) => {
+            if (i >= 5) item.classList.add('hidden');
+          });
+          newsToggle.textContent = 'Show all news';
+          newsToggle.dataset.expanded = 'false';
+        } else {
+          hidden.forEach(item => item.classList.remove('hidden'));
+          newsToggle.textContent = 'Show less';
+          newsToggle.dataset.expanded = 'true';
+        }
+      });
+    }
+  </script>
+</body>
 </html>
-

@@ -1,0 +1,28 @@
+<section id="publications" class="section">
+  <div class="container">
+    <h2 class="section-title">Publications</h2>
+    <p class="section-subtitle">You can also find my articles on <a href="{{ site.author.googlescholar }}">Google Scholar</a>. <em>(* = co-first author)</em></p>
+
+    {% assign pubs_by_year = site.data.publications | group_by: "year" | sort: "name" | reverse %}
+    {% for year_group in pubs_by_year %}
+    <div class="pub-year-group">
+      <h3 class="pub-year">{{ year_group.name }}</h3>
+      <ul class="pub-list">
+        {% for pub in year_group.items %}
+        <li class="pub-item">
+          <div class="pub-title">
+            {% if pub.url and pub.url != "#" %}<a href="{{ pub.url }}" target="_blank">{{ pub.title }}</a>{% else %}{{ pub.title }}{% endif %}
+          </div>
+          <div class="pub-authors">{{ pub.authors }}</div>
+          <div class="pub-meta">
+            <span class="pub-venue">{{ pub.venue }}</span>
+            {% if pub.award %}<span class="badge-award">{{ pub.award }}</span>{% endif %}
+            {% if pub.note %}<span class="badge-note">{{ pub.note }}</span>{% endif %}
+          </div>
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+    {% endfor %}
+  </div>
+</section>

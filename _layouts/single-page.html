@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ site.title }}</title>
+  <meta name="description" content="{{ site.description }}">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="nav" id="navbar">
+    <div class="nav-inner">
+      <a href="#about" class="nav-name">{{ site.author.name }}</a>
+      <button class="nav-toggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#news">News</a></li>
+        <li><a href="#publications">Publications</a></li>
+        <li><a href="#awards">Awards</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#tools">Tools</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main>
+    {{ content }}
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <a href="//clustrmaps.com/site/1bw0u" target="_blank" rel="noopener" class="visitor-link" title="Visitor map (ClustrMaps)">
+        <img src="//www.clustrmaps.com/map_v2.png?cl=ffffff&amp;w=a&amp;d=qd22-Wpe7CUKe3FdY6eqGMd4TnBY6bmR9XIIyxh0TII" alt="ClustrMaps visitor map" loading="lazy">
+      </a>
+      <p>&copy; {{ 'now' | date: "%Y" }} {{ site.author.name }}. Hosted on GitHub Pages.</p>
+    </div>
+  </footer>
+
+  <script>
+    // Smooth scroll
+    document.querySelectorAll('a[href^="#"]').forEach(a => {
+      a.addEventListener('click', e => {
+        e.preventDefault();
+        const target = document.querySelector(a.getAttribute('href'));
+        if (target) {
+          const offset = document.getElementById('navbar').offsetHeight + 16;
+          window.scrollTo({ top: target.offsetTop - offset, behavior: 'smooth' });
+        }
+        // Close mobile menu
+        document.querySelector('.nav-links').classList.remove('active');
+        document.querySelector('.nav-toggle').classList.remove('active');
+      });
+    });
+
+    // Active section highlight
+    const sections = document.querySelectorAll('section[id]');
+    const navLinks = document.querySelectorAll('.nav-links a');
+    window.addEventListener('scroll', () => {
+      const scrollY = window.scrollY + 100;
+      sections.forEach(section => {
+        const top = section.offsetTop - 100;
+        const bottom = top + section.offsetHeight;
+        const id = section.getAttribute('id');
+        if (scrollY >= top && scrollY < bottom) {
+          navLinks.forEach(link => {
+            link.classList.remove('active');
+            if (link.getAttribute('href') === '#' + id) link.classList.add('active');
+          });
+        }
+      });
+    });
+
+    // Mobile toggle
+    document.querySelector('.nav-toggle').addEventListener('click', () => {
+      document.querySelector('.nav-links').classList.toggle('active');
+      document.querySelector('.nav-toggle').classList.toggle('active');
+    });
+
+    // Show more/less for news
+    const newsToggle = document.getElementById('news-toggle');
+    if (newsToggle) {
+      newsToggle.addEventListener('click', () => {
+        const hidden = document.querySelectorAll('.news-item.hidden');
+        const isExpanded = newsToggle.dataset.expanded === 'true';
+        if (isExpanded) {
+          document.querySelectorAll('.news-item').forEach((item, i) => {
+            if (i >= 5) item.classList.add('hidden');
+          });
+          newsToggle.textContent = 'Show all news';
+          newsToggle.dataset.expanded = 'false';
+        } else {
+          hidden.forEach(item => item.classList.remove('hidden'));
+          newsToggle.textContent = 'Show less';
+          newsToggle.dataset.expanded = 'true';
+        }
+      });
+    }
+  </script>
+</body>
+</html>
