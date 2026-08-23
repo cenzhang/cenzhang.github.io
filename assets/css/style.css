@@ -642,26 +642,17 @@ main {
   margin-top: 3px;
 }
 
-.visitor-map {
+.visitor-link {
   display: block;
-  opacity: 0.76;
-  transition: opacity 150ms ease;
 }
 
-.visitor-map:hover {
-  opacity: 1;
-}
-
-.visitor-map img {
-  display: block;
-  width: 140px;
-  height: auto;
-}
-
-.visitor-map span {
-  display: block;
-  margin-top: 3px;
-  text-align: center;
+.visitor-tracker {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  opacity: 0;
+  pointer-events: none;
 }
 
 /* ========== Responsive ========== */
@@ -789,7 +780,7 @@ main {
     line-height: 1.8;
   }
 
-  .visitor-map {
+  .visitor-link {
     width: max-content;
     margin-top: 14px;
   }
