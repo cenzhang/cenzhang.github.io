@@ -1,0 +1,19 @@
+# Public widget identifiers, not account credentials.
+current:
+  provider: "MapMyVisitors"
+  dashboard_id: "1c7ns"
+  dashboard_url: "https://mapmyvisitors.com/web/1c7ns"
+  map_key: "vs2aQpRczhwxjcRbqpe_1JOOP44wVadsWfLv4okvyoM"
+  map_url: "https://mapmyvisitors.com/map.png?d=vs2aQpRczhwxjcRbqpe_1JOOP44wVadsWfLv4okvyoM&cl=ffffff"
+
+legacy:
+  provider: "ClustrMaps"
+  site_id: "1bw0u"
+  tracker_key: "qd22-Wpe7CUKe3FdY6eqGMd4TnBY6bmR9XIIyxh0TII"
+  configured_in_commit: "14b794519b7448cd19590280866a74de4c6108fd"
+  archived_dashboard_url: "https://web.archive.org/web/20240912231006/https://clustrmaps.com/site/1bw0u"
+  status: "Preserved for a future recovery or migration attempt; not active."
+
+unused:
+  globe_key: "rFxmS-rIdCAKSs3CERwgIdVTubODJfYhnpe2AR7aaTg"
+  invalid_template_key: "c0iE23T-kE1Z77RydQ1UoeK1VAiMMSYMmQ2R2rgt6Mk"
