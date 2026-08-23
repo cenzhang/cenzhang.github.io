@@ -38,8 +38,8 @@ body {
   color: var(--color-text);
   background-color: var(--color-bg);
   background-image:
-    linear-gradient(rgba(8, 116, 81, 0.055) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(8, 116, 81, 0.055) 1px, transparent 1px);
+    linear-gradient(rgba(8, 116, 81, 0.045) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(8, 116, 81, 0.045) 1px, transparent 1px);
   background-attachment: fixed;
   background-size: 28px 28px;
   font-family: var(--font-mono);
