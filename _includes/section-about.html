@@ -1,0 +1,33 @@
+<section id="about" class="section section-about" aria-labelledby="profile-name">
+  <div class="container">
+    <div class="profile">
+      <div class="profile-photo">
+        <img src="{{ '/images/cenzhang.jpg' | relative_url }}" alt="{{ site.author.name }}">
+      </div>
+      <div class="profile-info">
+        <h1 id="profile-name">{{ site.author.name }} <span class="name-cn">(张岑)</span></h1>
+        <p class="profile-meta">
+          {{ site.author.bio }} <span aria-hidden="true">|</span>
+          <a href="https://github.com/microsoft/forge-lab" target="_blank" rel="noopener">MSEC FORGE Labs</a> <span aria-hidden="true">|</span>
+          MDASH engine <span aria-hidden="true">|</span>
+          DARPA AIxCC Winner
+        </p>
+        <div class="profile-links">
+          <span class="profile-email">Email: BLBLLHY AT GMAIL.COM</span>
+          {% if site.author.googlescholar %}<a href="{{ site.author.googlescholar }}" target="_blank" rel="noopener" title="Google Scholar">Scholar</a>{% endif %}
+          {% if site.author.github %}<a href="https://github.com/{{ site.author.github }}" target="_blank" rel="noopener" title="GitHub">GitHub</a>{% endif %}
+          {% if site.author.twitter %}<a href="https://twitter.com/{{ site.author.twitter }}" target="_blank" rel="noopener" title="Twitter">Twitter</a>{% endif %}
+          {% if site.author.orcid %}<a href="{{ site.author.orcid }}" target="_blank" rel="noopener" title="ORCID">ORCID</a>{% endif %}
+        </div>
+      </div>
+    </div>
+
+    <div class="about-text prose">
+      <p>I am a Senior Security Researcher at Microsoft Security's <a href="https://github.com/microsoft/forge-lab">FORGE Lab</a>, led by <a href="https://taesoo.kim/">Taesoo Kim</a>, where I build AI-powered systems for automated vulnerability discovery and the protection of critical software infrastructure. Before joining Microsoft, I was a postdoctoral researcher at Georgia Tech and Nanyang Technological University and served as the Java subteam leader of <a href="https://team-atlanta.github.io/authors/#team-java">Team Atlanta</a>, the first-place winner of <a href="https://aicyberchallenge.com/">DARPA's AI Cyber Challenge</a>.</p>
+
+      <p>My current research sits at the intersection of <strong>AI, security, and program analysis</strong>, with a focus on automated vulnerability detection and mitigation. It spans AI-powered vulnerability scanning through the MDASH engine, fuzz-driver generation, firmware analysis, fuzzing, and static and dynamic program analysis.</p>
+
+      <p>I love my family, research, Dota 2, traveling, and dreaming. :)</p>
+    </div>
+  </div>
+</section>
